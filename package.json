@@ -1,7 +1,6 @@
 {
   "name": "mylandingpage",
-  "homepage": "https://samaptidutta.github.io/MyLandingPage/", 
-
+  "homepage": "https://samaptidutta.github.io/MyLandingPage/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,8 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.4",
@@ -19,7 +18,6 @@
     "lucide-react": "^0.488.0",
     "motion": "^12.7.4",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
     "tailwindcss": "^4.1.4"
   },
   "devDependencies": {

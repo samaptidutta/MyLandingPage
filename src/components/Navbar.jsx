@@ -6,6 +6,7 @@ import { navItems } from '../constants'
 import { motion } from "motion/react"
 
 
+
 function Navbar() {
 
     const [mobileDraweOpen,setMobileDrawerOpen] = useState(false)

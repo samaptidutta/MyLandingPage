@@ -5,7 +5,7 @@ import {pricingOptions} from '../constants'
 const PricingSystem = () => {
     return (
         <div>
-            <div className='mt-20'>
+            <div className='mt-20' id="pricing">
                 <h2 className='text-3xl sm:text-5xl lg:text-6xl text-center tracking-wide mb-3'>Pricing</h2>
                 <div className='flex flex-wrap'>
                     {pricingOptions.map((item,index)=>(
