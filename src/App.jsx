@@ -8,13 +8,14 @@ import Navbar from './components/Navbar'
 import PricingSystem from './components/PricingSystem'
 import Testimonials from './components/Testimonials'
 import Workflow from './components/Workflow'
+import { easeInOut } from 'motion'
 
 
 function App() {
 
 
   return (
-    <motion.div  initial={{opacity:0,y:20}} animate={{opacity:1,y:0}} exit={{opacity:0,y:-20}} transition={{duration:0.3}}>
+    <motion.div  initial={{opacity:0,y:20}} animate={{opacity:1,y:0}} exit={{opacity:0,y:-20}} transition={{duration:0.3,ease:easeInOut}}>
       
       <Navbar/>
 
